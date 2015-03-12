@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="perf_key_server"
+        android:title="@string/action_config_server">
+
+        <EditTextPreference
+            android:key="pref_server_host"
+            android:title="@string/pref_server_host"
+            android:summary="@string/pref_server_default_host"
+            android:defaultValue="@string/pref_server_default_host"
+            android:dialogTitle="@string/pref_server_host_title"
+            android:dialogIcon="@drawable/network_64x64"/>
+
+        <EditTextPreference
+            android:key="pref_server_port"
+            android:title="@string/pref_server_port"
+            android:summary="@string/pref_server_default_port"
+            android:defaultValue="@string/pref_server_default_port"
+            android:dialogTitle="@string/pref_server_port_title"
+            android:dialogIcon="@drawable/network_64x64"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
